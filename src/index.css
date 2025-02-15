@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: lavender;
+  overflow-x: hidden;
+}
+nav{
+  background-color: lemonchiffon;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100vw;
+}
+nav h1{
+  font-size: 30px;
+  color: black;
+}
+
+.para{
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+.para img{
+  padding-top: 20px;
+  padding-left: 50px;
+  width: 180px;
+ 
+}
+.para p{
+ font-style: oblique;
+ width: 55vw;
+ height: 55vh;
+ font-size: 25px;
+
+}
+button{
+  height: 40px;
+  width: 80px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  border: none;
+}
+.bttn{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+.bttn button:hover{
+  background-color: white;
+  color: black;
+  transition: 0.5 ease-in;
+}
+.part1{
+  height: 100px;
+  width: 300px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin-left: 530px;
+ margin-top: 30px;
+ 
+  /* border: 2px solid black; */
+}
+.part2{
+  height: 50vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  
+  
+}
+.part2 img{
+  height: 600px;
+  width: 800px;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+.cntnt{
+  height: 100vh;
+  width: 100vw;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cntnt2{
+  height: 70vh;
+  width: 60vw;
+  background-color:white;
+  box-shadow: 3px 5px 8px 10px gray;
+
+}
+table{
+  height: 70vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+  align-items: center;
+justify-content: center;
+}
+table .head{
+  height: 100px;
+  width: 300px;
+  background-color: lemonchiffon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+th{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  color: black;
+}
